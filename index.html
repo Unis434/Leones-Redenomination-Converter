@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-cyan-800 to-slate-800 min-h-screen py-5" >
+    <div class="container" id="converter">
+    <div
+        class="mx-auto w-full max-w-sm bg-white shadow rounded-md p-5 space-y-3 text-sm">
+        <div class="flex items-center justify-between space-x-5">
+            <label for="base_currency_input"><h4>Enter Amount:</h4></label>
+            <input
+                type="number"
+                v-model="figure"
+                class="border-slate-300 border rounded-md py-2 px-4 text-sm"
+            />
+        </div>
+        <div class="flex items-center justify-between space-x-5">
+            <label for="currencies"><h4>Select denomination:</h4></label>
+            <select
+                type="text"
+                v-model="period"
+                class="border-slate-300 border rounded-md py-2 px-4 text-sm"
+                v-on:change="periodic($event)"
+            />
+            <option value="NEW">New</option>
+            <option value="OLD">Old</option>
+            </div>
+        </select>
+        </div>
+        <button
+            class="bg-slate-800 text-white rounded-md py-2 px-4 mx-auto relative block"
+            v-on:click="converter_func"
+        >Convert</button>
+    </div>
+    <div
+        id="latest_rates_display"
+        class="mx-auto my-5 w-full max-w-sm bg-white shadow rounded-md px-5 py-3 text-sm empty:hidden divide-y divide-dotted divide-slate-300"
+    >LE {{denomination}}</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script type="module" src="./converter.js"></script>
+</body>
+</html>
