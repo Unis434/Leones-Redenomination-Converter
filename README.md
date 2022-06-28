@@ -39,7 +39,7 @@ It's that easy.
   Please reach out to me at [unisk434@gmail.com](mailto:unisk434@gmail.com?subject=[GitHub%shop-shop]%20Source%20Han%20Sans)
 
   ## Links
-  - **[Deployed App]((https://unis434.github.io/Leones-Redenomination-Converter/))** 
+  - **[Deployed App]([https://github.com/Unis434/Leones-Redenomination-Converter](https://unis434.github.io/Leones-Redenomination-Converter/))** 
   - **[GitHub Repo](https://github.com/Unis434/Leones-Redenomination-Converter)**
   - **[My Portfolio](https://unis434.github.io/Personal_Resume/index.html)**
   - **[Connect on LinkedIn](https://www.linkedin.com/in/unisk434)**
