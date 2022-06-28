@@ -18,9 +18,10 @@ This application is now used to guide users to exactly convert the old leones no
   - [License](#license)
   
 ## Usage
-Input the amount you want to convert and hit done.
+Input the amount you want to convert and select new in the next section, then hit convert!!.
 It's that easy.
-  
+![image](https://user-images.githubusercontent.com/79544610/176199989-467b4e90-fcf1-45cc-a61f-272940536c40.png)
+
 
 ## Technology Used
 ![Express.js](https://img.shields.io/badge/-Express-white?style=for-the-badge)
